@@ -1,0 +1,20 @@
+export const validarTarea = ($field) => {
+
+if(!$field || !$field.value.trim()){
+
+    $field.classList.add('is-invalid');
+    $field.classList.remove('is-valid');
+    return false;
+
+}
+
+if($field.value.trim().lenght < 1 || $field.value.trim().lenght > 100){
+    $field.classList.add('is-invalid');
+    $field.classList.remove('is-valid');
+    return false;
+}
+
+$field.classList.remove('is-invalid');
+$field.classList.add('is-valid');
+return true;
+}

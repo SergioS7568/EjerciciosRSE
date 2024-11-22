@@ -1,0 +1,28 @@
+.BlockesDeTareas{
+    width:  300px;
+    border: 2px solid black;
+    border-radius: 0.1rem;
+  
+    
+   
+        padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
+        display: flex;
+        align-items: center;
+justify-content: space-between;
+
+        
+}   
+
+.buttonDelete{
+    font-size: small;
+    border-radius: 4rem;
+    width: 50px;
+    
+    color: #8A8A8A;
+    background-color: RGB(233, 233, 238);
+    
+    
+}
