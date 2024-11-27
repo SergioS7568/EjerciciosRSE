@@ -1,0 +1,11 @@
+.box-color-dynamic{
+    height: 80px;
+    width: 80px;
+  
+}
+.input-Box-Color{
+    height: 60px;
+    width: 300px;
+    color: black;
+    background-color: white;
+}
